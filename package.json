@@ -1,0 +1,18 @@
+{
+  "name": "mqrkelich-leave-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mqrkelich/mqrkelich-leave-bot"
+  },
+  "author": "mqrkelich",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
