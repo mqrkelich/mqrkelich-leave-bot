@@ -7,7 +7,7 @@ client.on('ready', async () => {
     console.log(`${client.user.username} | Leave bot is now online.`)
 })
 
-client.on('guildMemberAdd', async (member) => {
+client.on('guildMemberRemove', async (member) => {
 
     if(config.leave === 'enabled') {
 
